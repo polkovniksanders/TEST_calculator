@@ -1,0 +1,23 @@
+export const numPad = [
+    {symbol: 'C', action: 'clear'},
+    {symbol: '√', },
+    {symbol: '%'},
+    {symbol: '/'},
+    {symbol: '7', action: 'number'},
+    {symbol: '8', action: 'number'},
+    {symbol: '9', action: 'number'},
+    {symbol: '×'},
+    {symbol: '4', action: 'number'},
+    {symbol: '5', action: 'number'},
+    {symbol: '6', action: 'number'},
+    {symbol: '-'},
+    {symbol: '1', action: 'number'},
+    {symbol: '2', action: 'number'},
+    {symbol: '3', action: 'number'},
+    {symbol: '+'},
+    {symbol: '00', action: 'number'},
+    {symbol: '0', action: 'number'},
+    {symbol: ','},
+    {symbol: '='},
+]
+

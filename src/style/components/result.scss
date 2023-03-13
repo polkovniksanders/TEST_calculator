@@ -1,0 +1,15 @@
+@import "../constants";
+
+.result {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  &__text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: $main-white;
+  }
+}

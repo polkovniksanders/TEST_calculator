@@ -1,4 +1,8 @@
 @import "components/calculator";
+@import "components/history";
+@import "components/result";
+@import "components/numpad";
+@import "../fonts/Geometria/stylesheet.css";
 
 body {
   margin: 0;
@@ -7,4 +11,10 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Geometria';
+  background: linear-gradient(122.76deg, #FFA2A2 4.09%, #FF7B7B 91.04%), #FFFFFF;
+}
+
+p {
+  margin: 0;
 }
