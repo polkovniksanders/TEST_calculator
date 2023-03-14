@@ -1,9 +1,10 @@
 @import "../constants";
 
 .result {
+  min-height: 76px;
   height: 76px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
 
   &__text {
@@ -11,5 +12,11 @@
     font-size: 56px;
     line-height: 80px;
     color: $main-white;
+    text-align: right;
+  }
+
+  &__divider {
+    border-top: 2px solid $main-white;
+    min-width: 460px;
   }
 }

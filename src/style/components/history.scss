@@ -1,11 +1,12 @@
 @import "../constants";
 
 .history {
-
   &__wrapper {
     display: flex;
     justify-content: flex-end;
     text-align: right;
+    min-height: 117px;
+    align-items: flex-end;
   }
   &__text {
     font-weight: 500;

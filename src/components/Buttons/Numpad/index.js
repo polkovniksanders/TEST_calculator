@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 
 const Numpad = (props) => {
-
     const Number = () => {
         return (
             props.numPad && props.numPad.map((numpad, key) =>
@@ -17,7 +16,6 @@ const Numpad = (props) => {
             )
         )
     }
-
 
     return (
         <div className={'numpad__wrapper'}>

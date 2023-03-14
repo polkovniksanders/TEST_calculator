@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 /**
  * Функция отображения истории ввода
- * @param number принимает объект
+ * @param number принимает array
  * @returns {JSX.Element}
  * @constructor
  */
@@ -18,7 +18,7 @@ const History = ({number}) => {
 };
 
 History.propTypes = {
-    number: PropTypes.object,
+    number: PropTypes.array,
 }
 
 export default History;

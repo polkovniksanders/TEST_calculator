@@ -13,6 +13,7 @@ const Result = ({result}) => {
             <p className={'result__text'}>
                 {result || ''}
             </p>
+            <hr className={'result__divider'} />
         </div>
     );
 };

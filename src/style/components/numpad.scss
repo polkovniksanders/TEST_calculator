@@ -1,3 +1,5 @@
+@import "../constants";
+
 .number {
     width: 100px;
    height: 80px;
@@ -7,20 +9,35 @@
   &__wrapper {
     width: 460px;
     height: 464px;
-
+    min-height: 464px;
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
   }
   &__item {
+    width: 80px;
+    max-width: 80px;
     height: 80px;
     font-size: 36px;
     line-height: 88px;
     font-weight: 500;
+    margin: 10px;
+    color: $main-white;
+    flex: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &:hover {
+      width: 80px;
+      max-width: 80px;
+      height: 80px;
       cursor: pointer;
+      background: rgba(255, 255, 255, .12);
+      border-radius: $rounded50;
+    }
+    &:active {
+      color: #2B589A;
+      background: rgba(255, 255, 255, 1);
     }
   }
 }
