@@ -11,4 +11,4 @@ In the project directory, you can run:
 
 ### `npm start`
 
-![Image alt](https://github.com/{polkovniksanders}/{TEST_calculator}/raw/{main}/{public}/preview.jpg)
+![Image alt](https://github.com/{polkovniksanders}/{test_calculator}/raw/{main}/{public}/preview.jpg)
